@@ -48,5 +48,40 @@ pip install numpy pandas matplotlib seaborn scikit-learn jupyter
 Launch Jupyter Notebook:
 Bash - 
 jupyter notebookOpen Alzheimers_Disease_Classification_ScikitLearn.ipynb and run all cells.
+Key Visualizations
 
+Target class distribution
+Correlation heatmap (CDR, MMSE, nWBV strongest predictors)
+Model performance comparison (bar plot)
+Confusion matrices (4 models)
+ROC curves (all AUC > 0.91)
+
+Academic Report
+See Evaluative report.docx for:
+
+Introduction & Literature Review
+Methodology
+Detailed Results & Discussion
+Limitations & Future Work
+Harvard-style References
+
+Limitations & Future Improvements
+
+Single train/test split → Add Group K-Fold CV
+No hyperparameter tuning → GridSearchCV potential gains
+Classical models only → Future: Explore calibrated probabilities or ensemble methods
+
+License
+MIT License – feel free to use, modify, and share for educational purposes.
+
+Developed by Emoulanari Nathan Olala 
+contact@olalaai.org
+⭐ Star this repo if you found it helpful!
+textThis README is:
+- **Perfect length**: Informative but not overwhelming
+- **Professional**: Badges, structure, results upfront
+- **Academic-friendly**: Mentions module, report, best practices
+- **Easy to maintain**: Clear instructions
+
+After adding it and pushing, your GitHub repo will look polished and impressive. Let me know when
 ## Repository Structure
